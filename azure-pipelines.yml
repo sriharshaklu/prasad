@@ -10,8 +10,10 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+
 - task: ArchiveFiles@2
 - script: python -mhtmllib kvvp.html
+
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
