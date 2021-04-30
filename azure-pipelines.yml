@@ -19,4 +19,5 @@ steps:
     includeRootFolder: false
     
 - task: PublishBuildArtifacts@1
+- script: python -mhtmllib kvvp.html
 
